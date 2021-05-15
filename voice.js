@@ -40,7 +40,7 @@
                         speech.volume=1
                         speech.rate=1
 
-                        if(message.includes('who is Atul')||message.includes('tell me about Atul')){
+                        if(message.includes('who is Atul')||message.includes('about him')){
                             const finalText =intro[Math.floor(Math.random()*intro.length)]
                               speech.text=finalText
                           }
@@ -48,7 +48,7 @@
                         speech.rate=1
 
                         if(message.includes('resume')||message.includes('resume of atul')){
-                            window.open("https://www.w3schools.com");
+                            window.open("https://atul240202.github.io/pdf/Resume.pdf");
                             const finalText =resume[Math.floor(Math.random()*resume.length)]
                               speech.text=finalText
 
